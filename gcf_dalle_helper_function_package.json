@@ -1,0 +1,16 @@
+{
+  "engines": {
+        "node": "16.x"
+    },
+    "scripts": {
+        "start": "node index.js"
+    },
+  "dependencies": {
+    "@google-cloud/functions-framework": "^3.0.0",
+    "@google-cloud/storage": "^7.6.0",
+    "openai": "^4.19.0",
+    "firebase-admin": "^11.11.0",
+    "axios": "^1.6.2",
+    "twilio": "^4.19.0"
+  }
+}
