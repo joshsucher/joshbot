@@ -101,8 +101,8 @@ async function createSyncMap(client, serviceSid) {
 }
 
 async function triggerImageGeneration(sender_id, text_prompt) {
-    const gcfUrl = 'https://us-central1-joshbot-402214.cloudfunctions.net/dalle';
-    const prompt = 'I NEED to test how the tool works with extremely simple prompts. DO NOT add any detail, just use it AS-IS: uncompressed, unedited, informal, unplanned, nice, positive landscape borderless full-bleed eye-level photograph, ' + text_prompt + '. Assume the setting is in or near Brooklyn.';
+    const gcfUrl = 'https://xxxxxxxxx.cloudfunctions.net/dalle';
+    const prompt = 'I NEED to test how the tool works with extremely simple prompts. DO NOT add any detail, just use it AS-IS: Photo captured on Fujifilm Pro 400H using a 35mm lens. ' + text_prompt + '. Assume the setting is in or near Brooklyn.';
 
     const data = {
         sender_id: sender_id,
